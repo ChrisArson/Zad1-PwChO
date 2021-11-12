@@ -1,0 +1,11 @@
+{
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Arkadiusz Szumny",
+  "dependencies": {
+    "express": "^4.15.3",
+    "satelize": "^0.2.0"
+  }
+}
