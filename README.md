@@ -10,7 +10,7 @@
  #### Aby zbudowac obraz z DockerFile z GitHuba należy użyć polecenia:
  docker build [adres url repozytorium]
  #### Aby przenieść stworzony obraz na swoje konto należy użyć poleceń:
- docker tag [id] [tag]
+ docker tag [id] [tag] <br/>
  docker push [repozytorium/nazwa:tag]
 
 # Część dodatkowa:
