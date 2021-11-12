@@ -1,10 +1,10 @@
 # Część obowiązkowa:
 
 ## 3.
- a. docker build -t zad1 .
- b. docker run -p 8080:8080 -d zad1
- c. docker logs [ciąg znaków który wygenerował się po komendzie docker run]
- d. docker history zad1
+ a. docker build -t zad1 . <br/>
+ b. docker run -p 8080:8080 -d zad1 <br/>
+ c. docker logs [ciąg znaków który wygenerował się po komendzie docker run] <br/>
+ d. docker history zad1 <br/>
 
 ## 4.
  ### Aby zbudowac obraz z DockerFile z GitHuba należy użyć polecenia:
