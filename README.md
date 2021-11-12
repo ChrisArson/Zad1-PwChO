@@ -16,11 +16,11 @@
 # Część dodatkowa:
 
 ## 1.
- a. docker run -d -p 6677:6677 --restart always --name registry registry:2
- b. 
- pobranie najnowszej wersji: docker pull ubuntu
- zmiana nazwy: docker tag ubuntu localhost:6677/ubuntu
- wgranie do prywatnego utworzonego, rejestru: docker push localhost:6677/ubuntu
+ a. docker run -d -p 6677:6677 --restart always --name registry registry:2 <br/>
+ b. <br/>
+ pobranie najnowszej wersji: docker pull ubuntu <br/>
+ zmiana nazwy: docker tag ubuntu localhost:6677/ubuntu <br/>
+ wgranie do prywatnego utworzonego, rejestru: docker push localhost:6677/ubuntu <br/>
 ## 2.
  ### 1. stworzenie katalogu auth: 
   mkdir auth
