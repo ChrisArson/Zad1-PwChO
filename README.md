@@ -22,7 +22,7 @@
  zmiana nazwy: docker tag ubuntu localhost:6677/ubuntu <br/>
  wgranie do prywatnego, utworzonego rejestru: docker push localhost:6677/ubuntu <br/>
 ## 2.
- ### 1. stworzenie katalogu auth: 
+#### 1. stworzenie katalogu auth: 
   mkdir auth
 #### 3. stworzenie pliku hasła dla użytkownika testuser z hasłem testpassword: 
 docker run --entrypoint htpasswd httpd:2 -Bbn testuser testpassword > auth/htpasswd
