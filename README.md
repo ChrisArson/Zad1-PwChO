@@ -20,7 +20,7 @@
  b. <br/>
  pobranie najnowszej wersji: docker pull ubuntu <br/>
  zmiana nazwy: docker tag ubuntu localhost:6677/ubuntu <br/>
- wgranie do prywatnego utworzonego, rejestru: docker push localhost:6677/ubuntu <br/>
+ wgranie do prywatnego, utworzonego rejestru: docker push localhost:6677/ubuntu <br/>
 ## 2.
  ### 1. stworzenie katalogu auth: 
   mkdir auth
